@@ -137,8 +137,8 @@ class PostsViewModelTests: XCTestCase {
 
   private func createPosts() -> [Post] {
     return [
-      Post(body: "body 1", title: "title 1", uid: "uid 1", userId: "userId 1"),
-      Post(body: "body 2", title: "title 2", uid: "uid 2", userId: "userId 2")
+      Post(body: "body 1", title: "title 1", uid: "uid 1", userId: "userId 1", createdAt: "createdAt 1"),
+      Post(body: "body 2", title: "title 2", uid: "uid 2", userId: "userId 2", createdAt: "createdAt 2")
     ]
   }
 }
